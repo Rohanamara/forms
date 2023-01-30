@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" /> 
+</head>
+<body> 
+    <section id="container">
+        <form>
+            <header>Registration form</header><br>
+            <div >
+                <label for="name" class="list">Name</label><br>
+                <input type="text" class="box" placeholder="Enter Name" ><br>
+            </div>
+            <div>
+                <label for="Email-id" class="list">Email-id</label><br>
+                <input type="email" class="box" placeholder="Enter Email-id"><br>
+            </div>
+            <div>
+                <label for="Roll No." class="list">Roll No.</label><br>
+                <input type="text" class="box" placeholder="Enter Roll No." ><br>
+            </div>
+             <div>
+                <label for="Age" class="list">Age</label><br>
+                <input type="number" max="10000" min="18" class="year" placeholder="Enter Age" ><br>
+            </div>
+            <div>
+                <label for="Section" class="list">Section</label><br>
+                <input type="text" class="box" placeholder="Enter Section"><br>
+            </div>    
+            <div>
+                <label for="Gender" class="list" >Gender</label><br>
+            </div>
+            <input type="radio" class="circle" name="gender">
+            <label for="Check Male"class="list">Male</label>    
+            <input type="radio" class="circle" name="gender">
+            <label for="Check Female" class="list">Female </label>
+            <input type="radio" class="circle" name="gender">
+            <label for="Check Other" class="list">Other</label><br>
+            <div>
+                <label for="College Name" class="list">College Name</label><br>
+                <input type="text" class="box" placeholder="Enter College Name"><br>
+            </div>
+            <div>
+                <button class="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
